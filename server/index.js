@@ -7,7 +7,7 @@ app.set('views', __dirname + '');
 app.engine('html', require('ejs').renderFile);
  
 app.use(express.static(root + '/public'));
-app.use(express.static(root + '/components'));
+app.use(express.static(root + '/bower_components'));
 //routes
 app.get('',function(req,res){
         res.render('../public/views/index.html')
