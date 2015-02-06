@@ -26,3 +26,20 @@
 max-height: 100%!important;
 }
 /* End code that causes navigation bar to remain collapsed at all times */
+
+
+#bigContainer{
+	background-color: #B0122B;
+	float:left;
+	position; absolute;
+	box-shadow: 10px 10px 10px #888888;
+}
+#bigContainer>li>a{
+	color:#FAFAF8;
+}
+.trail1{
+	color:red;
+}
+.inactiveTrail{
+	
+}
