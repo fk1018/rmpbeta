@@ -15,7 +15,7 @@ html,body{
   z-index:200!important;
 }
 .collapse{
-  background-color:red;
+
 }
 @media (min-width: 768px) {
   #mainNav{
