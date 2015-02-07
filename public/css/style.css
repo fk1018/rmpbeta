@@ -62,7 +62,14 @@ html,body{
 }
 }
 
-.navbar-nav > li > a{margin-left:20%;  }
+.navbar-nav > li > a{
+  margin-left:15%;
+  margin-right:15%; 
+   }
+   .navbar-nav > li > .dropdown-menu{
+    margin-left:15%;
+  margin-right:15%; 
+   }
 
 @media (max-width: 767px) {
   .navbar-header{
@@ -71,7 +78,7 @@ html,body{
  #map-canvas{
   padding:0px;
   margin-top:10%;
-  height:94%;
+  height:100%;
  }
   }
 
