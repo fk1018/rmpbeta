@@ -63,12 +63,12 @@ html,body{
 }
 
 .navbar-nav > li > a{
-  margin-left:15%;
-  margin-right:15%; 
+  padding-left:15%;
+  padding-right:15%; 
    }
-   .navbar-nav > li > .dropdown-menu{
-    margin-left:15%;
-  margin-right:15%; 
+.navbar-nav > li > .dropdown-menu{
+  padding-left:15%;
+  padding-right:15%; 
    }
 
 @media (max-width: 767px) {
