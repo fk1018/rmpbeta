@@ -1,45 +1,78 @@
 
-
-
-
-/* Begin code that causes navigation bar to remain collapsed at all times */
-.navbar-header {
-  float: none;
-}
-.navbar-toggle {
-  display: block;
-}
-.navbar-collapse.collapse {
-  display: none!important;
-}
-.navbar-nav {
-  float: none!important;
-}
-.navbar-nav>li {
-  float: none;
-}
-.navbar-collapse.collapse.in{
-  display:block !important;
+html,body{
+  height:100%;
+  width:100%;
 }
 
-.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
-max-height: 100%!important;
+#map-canvas{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
 }
-/* End code that causes navigation bar to remain collapsed at all times */
 
+#mainNav{
+  z-index:200!important;
+}
+.collapse{
+  background-color:red;
+}
+@media (min-width: 768px) {
+  #mainNav{
+  background-image: url("/img/texture_back.jpg");
+  height:100%;
+  box-shadow: 10px 10px 10px #888888;
 
-#bigContainer{
-	background-color: #B0122B;
-	float:left;
-	position; absolute;
-	box-shadow: 10px 10px 10px #888888;
+  }
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+  max-width:300px;
+  margin-right: 0;
+  margin-left: 0;
+} 
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
 }
-#bigContainer>li>a{
-	color:#FAFAF8;
 }
-.trail1{
-	color:red;
-}
-.inactiveTrail{
-	
-}
+
+.navbar-nav > li > a{margin-left:20%;  }
+
+@media (max-width: 767px) {
+  .navbar-header{
+    height:10%;
+  }
+ #map-canvas{
+  padding:0px;
+  margin-top:12%;
+  height:94%;
+ }
+  }
+
+  

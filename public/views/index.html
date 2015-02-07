@@ -5,65 +5,59 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<title>Document</title>
-
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG1mocxosoC9cq-ucFO3vdZCcUxyKa6B4&sensor=true"> </script>
 	<script type="text/javascript" src="/jQuery/dist/jquery.js"></script>
 	<script type="text/javascript" src="/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="/js/map.js"></script>
+  <script type="text/javascript" src="/js/menu.js"></script>
 	<link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.css"/>
   <link rel="stylesheet" type="text/css" href="/css/font-awesome-4.3.0/css/font-awesome.css"/>
   <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+
 	
 </head>
 
 <body><!--Body starts here-->
-
-
-<nav class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg"><!--Small Navigation starts here-->
+<nav id ="mainNav" class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
-    <a class="navbar-brand" href="#">Brand</a>
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
   </div>
-  <div class="navbar-collapse collapse">
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li id="showHideTrailNavBtn"><a href="#"><i class="fa fa-arrow-up fa-2x fa-fw"></i>&nbsp; Hide Trail List</a></li>
+      <div id="trailNav" class="list-group">
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw trail1"></i>&nbsp;&nbsp; Trail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrailTrailTrail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; Trail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; Trail</a>
+        <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrailTrailTrail</a>
+       <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
+       </div>
+       <li><a href="#">Link</a></li>
+       <li><a href="#">Link</a></li>
+       <li><a href="#">Link</a></li>
+       <li><a href="#">Link</a></li>
+
     </ul>
-  </div>
-</nav><!--Small Navigation ends here-->
+  </div><!-- /.navbar-collapse -->
+</nav>
+<div id="map-canvas"></div>
 
 
-
-  
-
-<div class="container hidden-sm hidden-xs">
-  <div class="list-group" id="bigContainer">
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw trail1"></i>&nbsp;&nbsp; Trail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrailTrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; Trail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; Trail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrailTrailTrailTrail</a>
-  <a class="list-group-item" href="#"><i class="fa fa-check fa-border fa-fw"></i>&nbsp;&nbsp; TrailTrail</a>
-</div>
-</div>
 
 
 
@@ -71,3 +65,15 @@
 </body><!--Body ends here-->
 
 </html>
+
+
+<!--<li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li><a href="#">Separated link</a></li>
+          <li><a href="#">One more separated link</a></li>
+        </ul>
+      </li>-->
