@@ -13,13 +13,30 @@ html,body{
 
 #mainNav{
   z-index:200!important;
+  background-image: url("/img/red_background.jpg");
 }
-.collapse{
 
+.navbar-default .navbar-nav > li > a {
+color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
   #mainNav{
-  background-image: url("/img/texture_back.jpg");
   height:100%;
   box-shadow: 10px 10px 10px #888888;
 
@@ -81,5 +98,3 @@ html,body{
   height:100%;
  }
   }
-
-  
