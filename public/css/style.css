@@ -37,7 +37,7 @@ color: white;
 
 @media (min-width: 768px) {
   #mainNav{
-  opacity:.93;
+  opacity:.80;
   height:100%;
   box-shadow: 10px 10px 10px #888888;
   padding-top:10%;
@@ -78,9 +78,6 @@ margin-top:70%;
 .navbar-header
 {
     float:none !important;
-    border-width: 1px;
-    border-bottom-style: solid;
-    border-color: white;
   }
 
 .navbar-right .dropdown-menu {left:0;right:auto;}
