@@ -50,7 +50,7 @@ function createMap(){
 //Begin Setting Up Generic Map Info
   var mapOptions = {
     zoom: 15,
-    center: new google.maps.LatLng(33.4474907659445,-86.86759306684011),
+    center: new google.maps.LatLng(33.4534907659445,-86.86559306684011),
     mapTypeId: google.maps.MapTypeId.TERRAIN
   };
  return map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -157,7 +157,7 @@ map = createMap();
   songoTrail = new google.maps.Polyline({
     path: songoPair,
     show: false,
-    strokeColor: '#F97868',
+    strokeColor: '#FFAC03',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.songo'
@@ -165,7 +165,7 @@ map = createMap();
   reddingIshkoodaEastTrail = new google.maps.Polyline({
     path: reddingIshkoodaEastPair,
     show: false,
-    strokeColor: '#F3771D',
+    strokeColor: '#004930',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.reddingIshkoodaEast'
@@ -173,7 +173,7 @@ map = createMap();
   smytheTrail = new google.maps.Polyline({
     path: smythePair,
     show: false,
-    strokeColor: '#2014CA',
+    strokeColor: '#FF0305',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.smythe'
@@ -181,7 +181,7 @@ map = createMap();
   ishkoodaTrail = new google.maps.Polyline({
     path: ishkoodaPair,
     show: false,
-    strokeColor: '#EC15D1',
+    strokeColor: '#004930',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.ishkoodaOverlook'
@@ -189,7 +189,7 @@ map = createMap();
   mineSpur14Trail = new google.maps.Polyline({
     path: mineSpur14Pair,
     show: false,
-    strokeColor: '#FFD500',
+    strokeColor: '#A9722F',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.mineSpur14'
@@ -197,7 +197,7 @@ map = createMap();
   mineSpur13Trail = new google.maps.Polyline({
     path: mineSpur13Pair,
     show: false,
-    strokeColor: '#EB2121',
+    strokeColor: '#40453F',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.mineSpur13'
@@ -205,7 +205,7 @@ map = createMap();
    ishkoodaSpur12Trail = new google.maps.Polyline({
     path: ishkoodaSpur12Pair,
     show: false,
-    strokeColor: '#A60000',
+    strokeColor: '#018822',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.reddingIshkoodaSpur12'
@@ -213,7 +213,7 @@ map = createMap();
    tciConnectorTrail = new google.maps.Polyline({
     path: tciConnectorPair,
     show: false,
-    strokeColor: '#00EBFF',
+    strokeColor: '#A7041F',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.TCIConnector'
@@ -221,7 +221,7 @@ map = createMap();
    bmrrLoopNorthTrail = new google.maps.Polyline({
     path: bmrrLoopNorthPair,
     show: false,
-    strokeColor: '#005A37',
+    strokeColor: '#004ED4',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.BMRRLoopNorth'
@@ -229,7 +229,7 @@ map = createMap();
    eurekaMinesTrail = new google.maps.Polyline({
     path: eurekaMinesPair,
     show: false,
-    strokeColor: '#313055',
+    strokeColor: '#FF5500',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.eurekaMines'
@@ -237,7 +237,7 @@ map = createMap();
    ikeMastonTrail = new google.maps.Polyline({
     path: ikeMastonPair,
     show: false,
-    strokeColor: '#50FF00',
+    strokeColor: '#00124C',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.ikeMaston'
@@ -245,7 +245,7 @@ map = createMap();
    southBranchRRBedTrail = new google.maps.Polyline({
     path: southBranchRRBedPair,
     show: false,
-    strokeColor: '#480043',
+    strokeColor: '#692C00',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.southBranchRRBed'
@@ -260,7 +260,7 @@ map = createMap();
    reddingIshkoodaWestTrail = new google.maps.Polyline({
     path: reddingIshkoodaWestPair,
     show: false,
-    strokeColor: '#A0A000',
+    strokeColor: '#004930',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.reddingIshkoodaWest'
@@ -275,7 +275,7 @@ map = createMap();
    reddingIshkoodaProposedTrail = new google.maps.Polyline({
     path: reddingIshkoodaProposedPair,
     show: false,
-    strokeColor: '#FF0067',
+    strokeColor: '#004930',
     strokeOpacity: 1.0,
     strokeWeight: 3,
     cssClass: '.reddingIshkoodaProposed'

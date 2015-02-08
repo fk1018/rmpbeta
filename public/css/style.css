@@ -11,8 +11,8 @@ html,body{
   top:0;
 }
 #social{
-  padding-right:33.33%;
-  padding-left:33.33%;
+  padding-right:30%;
+  padding-left:30%;
   color:white;
 }
 #mainNav{
@@ -23,15 +23,28 @@ html,body{
 .navbar-default .navbar-nav > li > a {
 color: white;
 }
+
 #bigLogo{
   position:absolute;
   width:100%;
   z-index:200;
+  margin-top:2.5%;
+
 }
 #bigLogo > a > img{
   float:left;
-  margin-left:50%;
+  margin-left:45%;
 }
+
+
+.navbar-nav .open .dropdown-menu {
+background-color:white!important;
+}
+
+
+
+
+
 
 
 
@@ -68,7 +81,7 @@ color: white;
 } 
 
 #social{
-margin-top:70%;
+margin-top:65%;
 }
 
 .navbar-nav,
@@ -100,12 +113,20 @@ margin-top:70%;
    }
 
 @media (max-width: 767px) {
-  .navbar-header{
-    height:10%;
+  #map-canvas{
+    margin-top:10%;
   }
+  .navbar-header{
+    background-color:white;
+  }
+  #social{
+margin-top:35%;
+}
+ .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  min-height:500px;
+}
  #map-canvas{
   padding:0px;
-  margin-top:10%;
   height:100%;
  }
   }
