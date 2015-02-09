@@ -2,14 +2,27 @@
 $(function() {
     console.log( "ready!" );
 
-    $('#showHideTrailNavBtn').on('click',function(){
-          if ( $("#trailNav" ).is( ":hidden" ) ) {
-    $( "#trailNav" ).slideDown( "slow" );
-    } else {
-    $( "#trailNav" ).slideUp( "slow" );
-    }
-    console.log('finished');
-  });
+
+
+$('a.trail').on('click',function(){
+var checkMark = $(this).children();	
+
+if(checkMark.css("visibility")==="hidden"){
+	checkMark.css("visibility","visible");
+}
+else
+{
+	checkMark.css("visibility","hidden");
+}
+;
+
+
+
+console.log("hidden");
+
+
+});
+
 
 
 
