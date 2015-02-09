@@ -49,7 +49,7 @@ return pList;
 function createMap(){
 //Begin Setting Up Generic Map Info
   var mapOptions = {
-    zoom: 15,
+    zoom: 14,
     center: new google.maps.LatLng(33.4534907659445,-86.86559306684011),
     mapTypeId: google.maps.MapTypeId.TERRAIN
   };
