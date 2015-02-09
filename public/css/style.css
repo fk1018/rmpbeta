@@ -60,7 +60,6 @@ background-color:white!important;
   #mainNav{
   height:100%;
   box-shadow: 10px 10px 10px #888888;
-  padding-top:10%;
   }
   .navbar-collapse {
     height: auto;
@@ -111,8 +110,7 @@ margin-top:65%;
 }
 
 .navbar-nav > li > a{
-  padding-left:15%;
-  padding-right:15%; 
+
    }
 
 

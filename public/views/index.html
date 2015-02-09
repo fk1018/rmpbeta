@@ -12,6 +12,7 @@
   <script type="text/javascript" src="/js/menu.js"></script>
 	<link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.css"/>
   <link rel="stylesheet" type="text/css" href="/css/font-awesome-4.3.0/css/font-awesome.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/animate/animate.css"/>
   <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 
 	
@@ -20,7 +21,7 @@
 <body><!--Body starts here-->
 
 <div id="bigLogo" class="hidden-sm hidden-xs">
-  <a href=""><img src="/img/RMPLogo.png"></a>
+  <a href=""><img class="animated" src="/img/RMPLogo.png"></a>
 </div>
 <nav id ="mainNav" class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,7 +38,7 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-
+    
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe fa-2x fa-fw"></i>&nbsp;Customize Map <b class="caret"></b></a>
         <ul class="dropdown-menu dropdown">
@@ -51,10 +52,10 @@
           <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSongo();" ><i class="songoCk fa fa-check fa-fw"></i>Songo Trail</a></li>
           <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveReddingIshkoodaEast();addRemoveIshkooda();addRemoveReddingIshkoodaWest();addRemoveReddingIshkoodaProposed();" ><i class="reddingIshKoodaCk fa fa-check fa-fw"></i>Redding-Ishkooda Trail</a></li>
           <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveBMRRLoopNorth();" ><i class="bmrrNorthCk fa fa-check fa-fw"></i>BMRR North Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();hideAllTrails();" ><i class="fa fa-check fa-fw"></i>Hide All Trails</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();showAllTrails();" ><i class="fa fa-check fa-fw"></i>Show All Trails</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();" ><i class="fa fa-check fa-fw"></i>Hide Points of Interest</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();" ><i class="fa fa-check fa-fw"></i>Show Points of Interest</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();hideAllTrails();" ><i class="fa fa-fw"></i>Hide All Trails</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();showAllTrails();" ><i class="fa fa-fw"></i>Show All Trails</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();" ><i class="fa  fa-fw"></i>Hide Points of Interest</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();" ><i class="fa  fa-fw"></i>Show Points of Interest</a></li>
         </ul>
       </li>
 
@@ -126,11 +127,11 @@
       </li>
 
       <li id="social" style="border-bottom: 0px!important;">
-        <div  class="btn-group btn-group-justified" role="group" aria-label="...">
-          <i class="fa fa-facebook fa-fw fa-2x"></i>
-          <i class="fa fa-twitter fa-fw fa-2x"></i>
-          <i class="fa fa-instagram fa-fw fa-2x"></i>
-        </div>
+       
+          <i class="col-md-4 col-lg-4 col-sm-4  col-xs-4 col-xl-4 fa fa-facebook fa-fw fa-2x"></i>
+          <i class="col-md-4 col-lg-4 col-sm-4  col-xs-4 col-xl-4 fa fa-twitter fa-fw fa-2x"></i>
+          <i class="col-md-4 col-lg-4 col-sm-4  col-xs-4 col-xl-4 fa fa-instagram fa-fw fa-2x"></i>
+        
       </li>
 
 
