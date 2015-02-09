@@ -1,69 +1,24 @@
-
-html,body{
-  height:100%;
-  width:100%;
-  padding:0px!important;
-  margin-right:0px!important;
-  margin-left:0px!important;
-}
-
-li > button{
-  width:100%;
-}
-
+html,body{height:100%;z-index:100;font-size:10px;} 
 #map-canvas{
   height:100%;
   width:100%;
   position:absolute;
   top:0;
+  z-index:150;
 }
-#social{
-  padding-right:30%;
-  padding-left:30%;
-  color:white;
-}
+
 #mainNav{
-  z-index:200!important;
-  background-image: url("/img/red_background.jpg");
-  opacity:.80;
-}
-
-.navbar-default .navbar-nav > li > a {
-color: white;
-}
-
-#bigLogo{
-  position:absolute;
-  width:100%;
   z-index:200;
-  margin-top:2.5%;
-
 }
-#bigLogo > a > img{
-  float:left;
-  margin-left:45%;
-}
-
-
-.navbar-nav .open .dropdown-menu {
-background-color:white!important;
-}
-
-
-
-
-
-
-
 
 @media (min-width: 768px) {
-  .dropdown-menu{
-    min-width: 300px;
+html,body{height:100%;z-index:100;font-size:16px!important;} 
+.dropdown-menu{
+    font-size:16px!important;
   }
-  #mainNav{
-  height:100%;
-  box-shadow: 10px 10px 10px #888888;
-  }
+
+#mainNav{height:100%}
+
   .navbar-collapse {
     height: auto;
     border-top: 0;
@@ -84,54 +39,37 @@ background-color:white!important;
 
 .navbar
 {
-  max-width:300px;
+  max-width:500px;
   margin-right: 0;
   margin-left: 0;
 } 
 
-#social{
-margin-top:65%;
-}
+  .navbar-nav,
+  .navbar-nav > li,
+  .navbar-left,
+  .navbar-right,
+  .navbar-header
+    {float:none !important;}
 
-.navbar-nav,
-.navbar-nav > li,
-.navbar-left,
-.navbar-right,
-.navbar-header
-{
-    float:none !important;
-  }
-
-.navbar-right .dropdown-menu {left:0;right:auto;}
-.navbar-collapse .navbar-nav.navbar-right:last-child {
+  .navbar-right .dropdown-menu {left:0;right:auto;}
+  .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: 0;
+  }
 }
-.navbar-nav > li > .dropdown-menu{
-  margin-left:100%; 
-   }
-
-}
-
-.navbar-nav > li > a{
-
-   }
-
 
 @media (max-width: 767px) {
-  .navbar-header{
-    background-color:white;
+  .navbar-collapse{
+    padding-left:0px!important;
+    padding-right:0px!important;
   }
-  #social{
-margin-top:35%;
-}
- .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
-  min-height:490px;
-}
- #map-canvas{
-  padding:0px;
-  height:100%;
- }
+  .dropdown-menu{
+    font-size:10px!important;
   }
+
+}
+
+
+
 
 .bmrrSouthCk{
   color:#692C00;

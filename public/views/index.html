@@ -18,50 +18,26 @@
 	
 
 </head>
-<body class="container"><!--Body starts here-->
-
-<div id="bigLogo" class="hidden-sm hidden-xs">
-  <a href=""><img class="animated" src="/img/RMPLogo.png"></a>
-</div>
-<nav id ="mainNav" class="navbar navbar-default" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
+<body><!--Body starts here-->
+<nav id="mainNav" class="navbar navbar-default" role="navigation">
+  
   <div class="navbar-header">
-   <a class="navbar-brand hidden-lg hidden-md" href="#" ><img style="max-height:30px;" src="/img/RMPLogo.png"></a>
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-  </div
+    <a class="navbar-brand hidden-lg hidden-md" href="#"><img style="max-height: 30px" src="/img/RMPLogo.png"></a>
+  </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav row">
-    
-      <li class="dropdown ">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe fa-2x fa-fw"></i>&nbsp;Customize Map <b class="caret"></b></a>
-        <ul class="dropdown-menu dropdown">
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();addRemoveSouthBranchRRBedExt();" ><i class="fa fa-check fa-fw bmrrSouthCk"></i>BMRR South Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveEurekaMines();" ><i class="eurekaMineCk fa fa-check fa-fw"></i>Eureka Mines Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveTCIConnector();" ><i class="tciConnectorCk fa fa-check fa-fw"></i>TCI Connector Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveMineSpur13();" ><i class="mine13Ck fa fa-check fa-fw"></i>#13 Mine Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveMineSpur14();" ><i class="mine14Ck fa fa-check fa-fw"></i>#14 Mine Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSmythe();" ><i class="smytheCk fa fa-check fa-fw"></i>Smythe Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveIkeMaston();addRemoveIkeMastonExt();" ><i class="ikeMastonCk fa fa-check fa-fw"></i>Ike Maston Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSongo();" ><i class="songoCk fa fa-check fa-fw"></i>Songo Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveReddingIshkoodaEast();addRemoveIshkooda();addRemoveReddingIshkoodaWest();addRemoveReddingIshkoodaProposed();" ><i class="reddingIshKoodaCk fa fa-check fa-fw"></i>Redding-Ishkooda Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveBMRRLoopNorth();" ><i class="bmrrNorthCk fa fa-check fa-fw"></i>BMRR North Trail</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();hideAllTrails();" ><i class="fa fa-fw"></i>Hide All Trails</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();showAllTrails();" ><i class="fa fa-fw"></i>Show All Trails</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();" ><i class="fa  fa-fw"></i>Hide Points of Interest</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();" ><i class="fa  fa-fw"></i>Show Points of Interest</a></li>
-        </ul>
-      </li>
-
-      
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+  <div id="leftNav" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <ul class="nav navbar-nav">
         <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-home fa-2x fa-fw"></i>&nbsp; Home <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-home fa-fw"></i>&nbsp; Home <b class="caret"></b></a>
         <ul class="dropdown-menu dropdown">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
@@ -72,7 +48,7 @@
       </li>
 
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info fa-2x fa-fw"></i>&nbsp; Park Overview <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info fa-fw"></i>&nbsp; Park Overview <b class="caret"></b></a>
         <ul class="dropdown-menu dropdown">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
@@ -83,7 +59,7 @@
       </li>
 
       <li class="dropdown ">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book fa-2x fa-fw"></i>&nbsp; Education Outreach <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book fa-fw"></i>&nbsp; Education Outreach <b class="caret"></b></a>
         <ul class="dropdown-menu dropdown">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
@@ -94,7 +70,7 @@
       </li>
 
       <li class="dropdown ">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tree fa-2x fa-fw"></i>&nbsp; Adventure Area <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tree fa-fw"></i>&nbsp; Adventure Area <b class="caret"></b></a>
         <ul class="dropdown-menu dropdown">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
@@ -105,7 +81,7 @@
       </li>
 
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users fa-2x fa-fw"></i>&nbsp; Support Us <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users fa-fw"></i>&nbsp; Support Us <b class="caret"></b></a>
         <ul class="dropdown-menu dropdown">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
@@ -116,7 +92,7 @@
       </li>
 
       <li class="dropdown" >
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-car fa-2x fa-fw"></i>&nbsp; Visit <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-car fa-fw"></i>&nbsp; Visit <b class="caret"></b></a>
         <ul class="dropdown-menu dropdown">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
@@ -128,8 +104,27 @@
 
     
     </ul>
-
-
+</div>
+      <div id="rightNav" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <ul class="nav navbar-nav">
+     <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();addRemoveSouthBranchRRBedExt();" ><i class="fa fa-check-square fa-fw bmrrSouthCk"></i>BMRR South</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveEurekaMines();" ><i class="eurekaMineCk fa fa-check-square "></i>Eureka Mines</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveTCIConnector();" ><i class="tciConnectorCk fa fa-check-square"></i>TCI Connector</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveMineSpur13();" ><i class="mine13Ck fa fa-check-square "></i>#13 Mine</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveMineSpur14();" ><i class="mine14Ck fa fa-check-square "></i>#14 Mine</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSmythe();" ><i class="smytheCk fa fa-check-square "></i>Smythe</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveIkeMaston();addRemoveIkeMastonExt();" ><i class="ikeMastonCk fa fa-check-square "></i>Ike Maston</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSongo();" ><i class="songoCk fa fa-check-square "></i>Songo</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveReddingIshkoodaEast();addRemoveIshkooda();addRemoveReddingIshkoodaWest();addRemoveReddingIshkoodaProposed();" ><i class="reddingIshKoodaCk fa fa-check-square "></i>Redding-Ishkooda</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveBMRRLoopNorth();" ><i class="bmrrNorthCk fa fa-check-square"></i>BMRR North</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();hideAllTrails();" ><i class="fa "></i>Hide All Trails</a></li>
+          <li><a class="trail" href="#" onclick="event.stopPropagation();showAllTrails();" ><i class="fa "></i>Show All Trails</a></li>
+        
+      
+    </ul>
+    </div>
+      </li>
+    </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
 <div id="map-canvas"></div>
