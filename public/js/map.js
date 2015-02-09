@@ -160,7 +160,7 @@ map = createMap();
     show: false,
     strokeColor: '#FFAC03',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.songo'
   });
   reddingIshkoodaEastTrail = new google.maps.Polyline({
@@ -168,7 +168,7 @@ map = createMap();
     show: false,
     strokeColor: '#38B7B3',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.reddingIshkoodaEast'
   });
   smytheTrail = new google.maps.Polyline({
@@ -176,7 +176,7 @@ map = createMap();
     show: false,
     strokeColor: '#FF0305',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.smythe'
   });
   ishkoodaTrail = new google.maps.Polyline({
@@ -184,7 +184,7 @@ map = createMap();
     show: false,
     strokeColor: '#38B7B3',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.ishkoodaOverlook'
   });
   mineSpur14Trail = new google.maps.Polyline({
@@ -192,7 +192,7 @@ map = createMap();
     show: false,
     strokeColor: '#A9722F',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.mineSpur14'
   });
   mineSpur13Trail = new google.maps.Polyline({
@@ -200,7 +200,7 @@ map = createMap();
     show: false,
     strokeColor: '#8F0080',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.mineSpur13'
   });
    ishkoodaSpur12Trail = new google.maps.Polyline({
@@ -208,7 +208,7 @@ map = createMap();
     show: false,
     strokeColor: '#018822',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.reddingIshkoodaSpur12'
   });
    tciConnectorTrail = new google.maps.Polyline({
@@ -216,7 +216,7 @@ map = createMap();
     show: false,
     strokeColor: '#A7041F',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.TCIConnector'
   });
    bmrrLoopNorthTrail = new google.maps.Polyline({
@@ -224,7 +224,7 @@ map = createMap();
     show: false,
     strokeColor: '#004ED4',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.BMRRLoopNorth'
   });
    eurekaMinesTrail = new google.maps.Polyline({
@@ -232,7 +232,7 @@ map = createMap();
     show: false,
     strokeColor: '#FF5500',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.eurekaMines'
   });
    ikeMastonTrail = new google.maps.Polyline({
@@ -240,7 +240,7 @@ map = createMap();
     show: false,
     strokeColor: '#00124C',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.ikeMaston'
   });
    ikeMastonExtTrail = new google.maps.Polyline({
@@ -248,7 +248,7 @@ map = createMap();
     show: false,
     strokeColor: '#00124C',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.ikeMastonExt'
   });
    southBranchRRBedTrail = new google.maps.Polyline({
@@ -256,7 +256,7 @@ map = createMap();
     show: false,
     strokeColor: '#692C00',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.southBranchRRBed'
   });
    southBranchRRBedExtTrail = new google.maps.Polyline({
@@ -264,7 +264,7 @@ map = createMap();
     show: false,
     strokeColor: '#692C00',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.southBranchRRBedExt'
   });
    reddingIshkoodaWestTrail = new google.maps.Polyline({
@@ -272,7 +272,7 @@ map = createMap();
     show: false,
     strokeColor: '#38B7B3',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.reddingIshkoodaWest'
   });
    /*untitledTrail = new google.maps.Polyline({
@@ -280,14 +280,14 @@ map = createMap();
     show: false,
     strokeColor: '#FFC300',
     strokeOpacity: 1.0,
-    strokeWeight: 3
+   strokeWeight: 2.25,
   });*/
    reddingIshkoodaProposedTrail = new google.maps.Polyline({
     path: reddingIshkoodaProposedPair,
     show: false,
     strokeColor: '#38B7B3',
     strokeOpacity: 1.0,
-    strokeWeight: 3,
+    strokeWeight: 2.25,
     cssClass: '.reddingIshkoodaProposed'
   });
     //Add Trails to map
