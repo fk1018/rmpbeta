@@ -51,7 +51,7 @@ function createMap(){
   var mapOptions = {
     zoom: 14,
     center: new google.maps.LatLng(33.4504907659445,-86.86559306684011),
-    mapTypeId: google.maps.MapTypeId.TERRAIN
+    mapTypeId: google.maps.MapTypeId.SATELLITE
   };
  return map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 //End Setting Up Generic Map Info
