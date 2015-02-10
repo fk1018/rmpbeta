@@ -313,7 +313,7 @@ function showPosition(position) {
       position: myLatLng,
       map: map
   });
-  map.setCenter(myLatLng);
+  console.log(myLatLng);
   
       
 };
