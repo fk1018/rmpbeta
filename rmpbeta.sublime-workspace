@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fa-car",
+				"fa-car	fa-car"
+			],
+			[
 				"fa-caret",
 				"fa-caret-down	fa-caret-down"
 			],
@@ -343,7 +347,7 @@
 			"file": "public/views/index.html",
 			"settings":
 			{
-				"buffer_size": 8303,
+				"buffer_size": 9138,
 				"line_ending": "Unix"
 			}
 		},
@@ -351,7 +355,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 2737,
+				"buffer_size": 4179,
 				"line_ending": "Unix"
 			}
 		},
@@ -367,9 +371,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 92.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
 			[
 				"color schele",
 				"ColorSchemeSelector: Select Color Scheme"
@@ -381,10 +393,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"color",
-				"Color Picker"
 			],
 			[
 				"remove",
@@ -413,10 +421,6 @@
 			[
 				"ipsu",
 				"Snippet: Bootstrap success button"
-			],
-			[
-				"colo",
-				"Color Picker"
 			],
 			[
 				"file",
@@ -455,7 +459,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 405.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -572,6 +576,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"14px",
+			" \n",
+			"0px",
 			"86.85633618176936,33.45528253728552,0 -86.85633295247864,33.45528865410756,0 -86.85627364112868,33.45548822562014,0 -86.85626878352305,33.45550168102211,0 -86.85626074376519,33.45554391336211,0 -86.85620573530973,33.45556468031079",
 			"-86.86021439695818,33.45327565229698,0 -86.86009508094816,33.45335850554231,0 -86.86007021627435,33.45337023131531,0 -86.86006557790839,33.45337631313056,0 -86.86005758079158,33.45337906332916,0 -86.85996687510725,33.45337661576617,0 -86.85992246305572,33.45337075209115,0 -86.85990987105367,33.45337061898514,0 -86.85990338756196,33.45337160595925,0 -86.85988981769353,33.45337145669137,0 -86.85987878526342,33.45336347966892,0 -86.85986959270048,33.45335659238933,0 -86.85985024512819,33.45335284471204,0 -86.85983295890513,33.45335070882253,0 -86.85982071738454,33.4533454931632,0 -86.85976530172019,33.45328877230094,0 -86.85972512735412,33.45325878679128,0 -86.85954302820616,33.45303822312935,0 -86.85949897988485,33.45301884449603,0 -86.85943313247616,33.45300524835398,0 -86.85938178282494,33.45299982162877,0 -86.85917078199094,33.45291845661495,0 -86.85910001253517,33.45289114998774,0 -86.85908055616676,33.45288750675158,0 -86.85897477595319,33.45290894618172,0 -86.85894984489853,33.45292265478985,0 -86.85888289311994,33.45297757664366,0 -86.85887879383803,33.45298899392332,0 -86.85888363594778,33.4530439374392,0 -86.85890530406633,33.45311562396789,0 -86.85889979519361,33.45314964680895,0 -86.8589098985944,33.45324459484281,0 -86.85887917633225,33.45329607865899,0 -86.85886819616174,33.45338695576882,0 -86.85886256946942,33.45339620714341,0 -86.85882503186671,33.45340826731403,0 -86.85880599930161,33.4534184418628,0 -86.85877081645549,33.45349507333089,0 -86.85875290320708,33.45355213488053,0 -86.85868952376489,33.4535816799086,0 -86.85867741238287,33.45358784504538,0 -86.85861446607935,33.45368601591841,0 -86.85855464116197,33.45374175820266,0 -86.8585460148051,33.45379062918943,0 -86.85851168107513,33.45385518798106,0 -86.85850844225716,33.45391652455672,0 -86.85850472087905,33.45391955118723,0 -86.85849721429263,33.45392189908563,0 -86.85847187742986,33.45392496220158,0 -86.85846212509354,33.45392038694173,0 -86.85842784369301,33.45390719440952,0 -86.85841891878613,33.45390455286487,0 -86.85829725454694,33.45386552959018,0 -86.85827325452667,33.45384865460759,0 -86.85826203357325,33.45383736767155,0 -86.85823137780964,33.45381125950551,0 -86.85822275940842,33.45380507322183,0 -86.85817176917658,33.45375647615176,0 -86.85805150489212,33.45370212360916,0 -86.85803405881057,33.45370091338813,0 -86.85800860940638,33.45369848853767,0 -86.85799559647195,33.45370275303612,0 -86.85799053569923,33.45370761457954,0 -86.8579426879829,33.45379914153882,0 -86.85795708910982,33.45406609711165,0 -86.85795238088008,33.454082507661,0 -86.85788486929246,33.45427062263445,0 -86.85788365278401,33.45427521993998,0 -86.85788466198075,33.454280932058,0 -86.85789244628999,33.4543205701463,0 -86.85789058900683,33.45432565782573,0 -86.85788512197314,33.4543302379386,0 -86.85785990040911,33.45437477467421,0 -86.85780169844917,33.45442389256418,0 -86.85778267427187,33.45444380771217,0 -86.85775884190429,33.45448776570982,0 -86.85775414786829,33.45449794404665,0 -86.85760125367686,33.45468739663854,0 -86.85749674002705,33.45474485204728,0 -86.85730764524293,33.45485545884201,0 -86.85729728811094,33.45486030182423,0 -86.85729018580287,33.45486788494913,0 -86.85725297085587,33.45493864587769,0 -86.85725493297045,33.45496330697549,0 -86.85726010566999,33.45499950318835,0 -86.8572581262232,33.45500854804674,0 -86.85724918922043,33.45503319632577,0 -86.85721978902959,33.45516058819617,0 -86.8572079274565,33.4551705582051,0 -86.8571416886647,33.45524488328955,0 -86.85712935680279,33.4552509792015,0 -86.85710687237655,33.45529370118233,0 -86.85709584291733,33.45530041208706,0 -86.85696065753274,33.45538157260096,0 -86.85691255110295,33.45540172927201,0 -86.85684507152554,33.45542629148444,0 -86.85676285231627,33.45542136778182,0 -86.85675378088234,33.45541097697826,0 -86.85672328622724,33.45539012897563,0 -86.85671350691555,33.45538885775547,0 -86.85656113715154,33.45537947852565,0 -86.85655184197383,33.45538207466323,0 -86.85652275329863,33.45538394584216,0 -86.85651015756582,33.45537891569632,0 -86.8564931315297,33.45535851611417,0 -86.85648463699806,33.45535170255481,0 -86.85635604211333,33.4552782465689,0 -86.85634939838272,33.45527821658482,0 -86.85633618176936,33.45528253728552,0 -86.85633295247864,33.45528865410756,0 -86.85627364112868,33.45548822562014,0 -86.85626878352305,33.45550168102211,0 -86.85626074376519,33.45554391336211,0 -86.85620573530973,33.45556468031079",
 			"-86.87895144515571,33.44075257152869,0 -86.87869954097825,33.4408763730029,0 -86.87817315748511,33.44109529164314,0 -86.87781786852764,33.44123924363869,0 -86.87738084891534,33.44139449814156,0 -86.87700577489331,33.44149866538787,0 -86.87612497734408,33.44174437288145,0 -86.87601034923402,33.44176870421045,0 -86.87558583132166,33.44190970896795,0 -86.87486901980814,33.44215042601762,0 -86.87480101041872,33.44218298781991,0 -86.87448001357642,33.44234806731516,0 -86.87411551193361,33.44255516454168,0 -86.87338025284798,33.44296587500686,0 -86.87316510433428,33.44311310287394,0 -86.87279779003303,33.44333689515989,0 -86.87194999849883,33.44385278567918,0 -86.87161568785072,33.44406309544748,0 -86.87017521579045,33.44500402848388,0 -86.86996465608779,33.4451197569718,0 -86.86972180521082,33.445248622962,0 -86.86872278189045,33.44582654144537,0 -86.86801887051048,33.44627268221706,0 -86.86646333245761,33.4472699081678,0 -86.86631223026477,33.44733589206355,0 -86.86572019169803,33.44763678999311,0 -86.86569397701584,33.44764422850167,0 -86.86568822143514,33.447697685961,0 -86.86569409472771,33.44773011434158,0 -86.8656805441278,33.44776903957732,0 -86.86566873372887,33.44778350487629,0 -86.86531746742979,33.44800576924907,0 -86.86417353461653,33.44868616104902,0 -86.86368321376685,33.44899871564675,0 -86.86323672464398,33.44925863298371,0 -86.86298253492662,33.4494126760913,0 -86.86243035575522,33.44976821468712,0 -86.86212403768344,33.44994512375336,0 -86.86185247369468,33.45009517573978,0 -86.86151932474336,33.45033524801365,0 -86.86086004855891,33.45073669962989,0 -86.86076278016574,33.45079794437977,0 -86.86024906519749,33.45112910866602,0 -86.86008329959878,33.45125107964596,0 -86.85998382539982,33.45132388569616,0 -86.85933365784263,33.45176933007048,0 -86.85927512916155,33.45178517435217,0 -86.85923313405176,33.45178859636014,0 -86.85906846884534,33.45176596088868,0 -86.85903581769853,33.45175879350482,0 -86.85895048915106,33.45178375287904,0 -86.85894887336201,33.45178380664087,0 -86.8589251120511,33.45179970265219,0 -86.85885779537527,33.45185521965986,0 -86.85879059471327,33.45189103433175,0 -86.85869551425377,33.45202537227629,0 -86.85869783918457,33.45203975128802,0 -86.85871926378437,33.45208739862365,0 -86.85869523037043,33.45214013909892,0 -86.85819213140195,33.45245033390619,0 -86.85810930040435,33.45250654232829,0 -86.85774920992638,33.45269455252721,0 -86.8573902907396,33.45301751301195,0 -86.85735543619143,33.45305140647291,0 -86.85733071067975,33.45305850221588,0 -86.8572179511948,33.45311404265772,0 -86.85701437566344,33.45321496812713,0 -86.85666437931572,33.45341209862259,0 -86.8566361097547,33.45343242623479,0 -86.85662934684375,33.45345524387264,0 -86.85662322219248,33.45348757481973,0 -86.85649934309252,33.45375890278865,0 -86.85648094071848,33.45377710418439,0 -86.85618804131825,33.45410809281006,0 -86.85609935484909,33.45418376205338,0 -86.85592466449616,33.45442554712516,",
@@ -600,7 +607,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -626,70 +633,70 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 51.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -698,15 +705,63 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8303,
+						"buffer_size": 9138,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7644,
-								7644
+								5948,
+								5948
+							],
+							[
+								6115,
+								6115
+							],
+							[
+								6332,
+								6332
+							],
+							[
+								6517,
+								6517
+							],
+							[
+								6705,
+								6705
+							],
+							[
+								6881,
+								6881
+							],
+							[
+								7057,
+								7057
+							],
+							[
+								7227,
+								7227
+							],
+							[
+								7431,
+								7431
+							],
+							[
+								7598,
+								7598
+							],
+							[
+								7886,
+								7886
+							],
+							[
+								8063,
+								8063
+							],
+							[
+								8202,
+								8202
 							]
 						],
 						"settings":
@@ -715,61 +770,61 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
@@ -777,10 +832,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1989.0,
+						"translation.y": 2215.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -789,15 +844,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2737,
+						"buffer_size": 4179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
+								2228,
+								2228
 							]
 						],
 						"settings":
@@ -805,61 +860,61 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
@@ -867,11 +922,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1634.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
+				},
+				{
+					"file": "public/img/RMPLogo.png",
+					"semi_transient": true,
+					"stack_index": 0,
+					"type": "image"
 				},
 				{
 					"buffer": 3,
@@ -886,8 +947,8 @@
 						"selection":
 						[
 							[
-								78138,
-								78138
+								74841,
+								74841
 							]
 						],
 						"settings":
@@ -896,61 +957,61 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
@@ -958,10 +1019,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2845.0,
+						"translation.y": 1528.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

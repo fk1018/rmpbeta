@@ -119,8 +119,12 @@ html,body{height:auto;z-index:100!important;}
 
 @media (max-width: 767px) {
   html,body{font-size:18px!important;}
+
   .navbar-header{
     opacity:1!important;
+  }
+  #mainNav{
+    opacity:.7;
   }
   .navbar-collapse{
     padding-left:15px!important;
@@ -135,8 +139,8 @@ html,body{height:auto;z-index:100!important;}
   }
 
   .navbar-nav > li > a{
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-top:5px;
+    padding-bottom:5px;
   }
   .navbar-nav {
   margin-top:15px!important;
