@@ -23,7 +23,9 @@ console.log("hidden");
 
 });
 
-
+function gpsAlert(){
+	alert('To enable tracking please be sure the GPS functionality is enabled for this device.');
+};
 
 
 
