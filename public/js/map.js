@@ -301,13 +301,14 @@ map = createMap();
 
 function getLocation() {
     if (navigator.geolocation) {
-        navigator.geolocation.watchPosition(showPosition);
+        navigator.geolocation.watchPosition(showPosition,errorPosition,{enableHighAccuracy: true});
 
     } else { 
         x.innerHTML = "Geolocation is not supported by this browser.";}
     }
     
-
+function errorPosition()
+{console.log('error')};
 
 function showPosition(position) {
   var myLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
@@ -316,6 +317,7 @@ function showPosition(position) {
       map: map
   });
    map.setCenter(myLatLng);
+   {console.log('success')};
       
 }
 
