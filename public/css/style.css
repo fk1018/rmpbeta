@@ -11,6 +11,16 @@ html,body{height:100%;z-index:100;font-size:10px;}
   z-index:200;
   background:url("/img/texture_back.jpg");
 }
+.navbar-default #rightNav .navbar-nav  > li > a {
+color: white;
+}
+
+.navbar-default #leftNav .navbar-nav  > li > a {
+color:#AB1F2C;
+}
+.navbar-default #bottomNav .navbar-nav  > li > a {
+color: white;
+}
 
 
 #rightNav{
