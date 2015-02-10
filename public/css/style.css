@@ -203,6 +203,9 @@ html,body{height:auto;z-index:100!important;}
 .tciConnectorCk{
   color:#FFE499;
 }
+.mine12cK{
+  color:#018822;
+}
 .mine13Ck{
   color:#A67EFF;
 }
@@ -292,3 +295,48 @@ fieldset[disabled] .btn-rm.active {
   background-color: #FFFFFF; 
 }
 
+.btn-iconNav { 
+  color: #FFFFFF; 
+  background-color: #F4F0E7; 
+  border-color: #B4B1AB; 
+} 
+ 
+.btn-iconNav:hover, 
+.btn-iconNav:focus, 
+.btn-iconNav:active, 
+.btn-iconNav.active, 
+.open .dropdown-toggle.btn-iconNav { 
+  color: #FFFFFF; 
+  background-color: #DAD7CF; 
+  border-color: #B4B1AB; 
+} 
+ 
+.btn-iconNav:active, 
+.btn-iconNav.active, 
+.open .dropdown-toggle.btn-iconNav { 
+  background-image: none; 
+} 
+ 
+.btn-iconNav.disabled, 
+.btn-iconNav[disabled], 
+fieldset[disabled] .btn-iconNav, 
+.btn-iconNav.disabled:hover, 
+.btn-iconNav[disabled]:hover, 
+fieldset[disabled] .btn-iconNav:hover, 
+.btn-iconNav.disabled:focus, 
+.btn-iconNav[disabled]:focus, 
+fieldset[disabled] .btn-iconNav:focus, 
+.btn-iconNav.disabled:active, 
+.btn-iconNav[disabled]:active, 
+fieldset[disabled] .btn-iconNav:active, 
+.btn-iconNav.disabled.active, 
+.btn-iconNav[disabled].active, 
+fieldset[disabled] .btn-iconNav.active { 
+  background-color: #F4F0E7; 
+  border-color: #B4B1AB; 
+} 
+ 
+.btn-iconNav .badge { 
+  color: #F4F0E7; 
+  background-color: #FFFFFF; 
+}
