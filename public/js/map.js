@@ -311,6 +311,7 @@ function errorPosition()
 {alert('Please Be Sure GPS is enabled on this device.')};
 
 function showPosition(position) {
+  alert('To enable tracking please be sure the GPS functionality is enabled for this device.')
   if(marker===undefined){
     var myLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
     marker = new google.maps.Marker({
