@@ -242,6 +242,9 @@ html,body{height:auto;z-index:100!important;}
 .carClr{
   color:#FF1910;
 }
+.markerClr{
+  color:#F35048;
+}
 
 .btn-rm { 
   color: #FFFFFF; 
