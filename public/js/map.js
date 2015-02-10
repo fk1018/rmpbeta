@@ -298,6 +298,27 @@ map = createMap();
 
   showAllTrails();
 };//end initialize
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";}
+    };
+    
+
+
+function showPosition(position) {
+  var myLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+   var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map
+  });
+   alert(myLatLng);
+  
+      
+};
+
+
 
 
 //Functions to add or remove trails to the map.
@@ -563,6 +584,10 @@ function showAllTrails(){
   reddingIshkoodaProposedTrail.setMap(null);
   reddingIshkoodaProposedTrail.show = false;
 };
+
+
+
+
 
 
 
