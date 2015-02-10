@@ -2,8 +2,6 @@
 $(function() {
     console.log( "ready!" );
 
-
-
 $('a.trail').on('click',function(){
 var checkMark = $(this).children();	
 
@@ -22,14 +20,6 @@ console.log("hidden");
 
 
 });
-
-function gpsAlert(){
-	alert('To enable tracking please be sure the GPS functionality is enabled for this device.');
-};
-
-
-
-
 
 
 });

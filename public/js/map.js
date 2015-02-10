@@ -299,6 +299,12 @@ map = createMap();
   showAllTrails();
 };//end initialize
 
+
+ function gpsAlert() {
+  alert('To enable tracking please be sure that this devices GPS is turned on.');
+}
+
+
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.watchPosition(showPosition,errorPosition,{enableHighAccuracy: true});
