@@ -89,6 +89,9 @@ html,body{height:auto;z-index:100;font-size:16px!important;}
 }
 
 @media (max-width: 767px) {
+  .navbar-header{
+    opacity:1!important;
+  }
   .navbar-collapse{
     padding-left:10px!important;
     padding-right:10px!important;
