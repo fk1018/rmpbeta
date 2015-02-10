@@ -9,15 +9,32 @@ html,body{height:100%;z-index:100;font-size:10px;}
 
 #mainNav{
   z-index:200;
+  background:url("/img/texture_back.jpg");
 }
 
+
+#rightNav{
+  background:url("/img/red_background.jpg");
+}
+#leftNav{
+
+}
+
+
+
+#bottomNav{
+  text-align: center!important;
+  background:url("/img/red_background.jpg");
+}
+
+
 @media (min-width: 768px) {
-html,body{height:100%;z-index:100;font-size:16px!important;} 
+html,body{height:auto;z-index:100;font-size:16px!important;} 
 .dropdown-menu{
     font-size:16px!important;
   }
 
-#mainNav{height:100%}
+#mainNav{height:100%;box-shadow: 10px 10px 10px #888888;}
 
   .navbar-collapse {
     height: auto;
@@ -26,7 +43,7 @@ html,body{height:100%;z-index:100;font-size:16px!important;}
     max-height: none;
     padding-left:0;
     padding-right:0;
-  }
+  }box-shadow: 10px 10px 10px #888888;
   .navbar-collapse.collapse {
     display: block !important;
     width: auto !important;
@@ -59,12 +76,24 @@ html,body{height:100%;z-index:100;font-size:16px!important;}
 
 @media (max-width: 767px) {
   .navbar-collapse{
-    padding-left:0px!important;
-    padding-right:0px!important;
+    padding-left:10px!important;
+    padding-right:10px!important;
   }
   .dropdown-menu{
     font-size:10px!important;
   }
+  
+  .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6{
+    padding:0px!important;
+  }
+  
+  #rightNav > .nav > li > a {
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:0px;
+    padding-top:0px;
+  }
+
 
 }
 

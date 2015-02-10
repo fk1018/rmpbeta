@@ -28,7 +28,7 @@ var flightPath,map,i,j,k;
 
 var xCoords,yCoords,pair,trailList = [];     
 
-
+var marker;
 
 function pairCoords(cList,xList,yList,pList){
   xList = [];
@@ -311,13 +311,22 @@ function errorPosition()
 {console.log('error')};
 
 function showPosition(position) {
-  var myLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
-   var marker = new google.maps.Marker({
+  if(marker===undefined){
+    var myLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+    marker = new google.maps.Marker({
       position: myLatLng,
       map: map
   });
    map.setCenter(myLatLng);
-   {console.log('success')};
+  }else{
+    var myLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+    marker.setMap(null);
+    marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map
+      });
+  }
+  
       
 }
 
