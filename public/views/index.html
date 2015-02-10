@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG1mocxosoC9cq-ucFO3vdZCcUxyKa6B4&sensor=true"> </script>
+  <link href='http://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="/jQuery/dist/jquery.js"></script>
 	<script type="text/javascript" src="/bootstrap/dist/js/bootstrap.js"></script>
   <script type="text/javascript" src="/js/map.js"></script>
@@ -51,7 +52,19 @@
 <div id="leftNav" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     
 
-    <span><i class="fa fa-home fa-2x"></i>&nbsp;<i class="fa fa-info fa-2x"></i>&nbsp;<i class="fa fa-book fa-2x"></i>&nbsp;<i class="fa fa-tree fa-2x"></i>&nbsp;<i class="fa fa-users fa-2x"></i>&nbsp;<i class="fa fa-car fa-2x"></i></span>
+    <span>
+    <a href="" class="btn btn-default"><i class="homeClr fa fa-home fa-2x"></i></a>
+    <a href="" class="btn btn-default"><i class="infoCLr fa fa-info fa-2x"></i></a>
+    <a href="" class="btn btn-default"><i class="bookClr fa fa-book fa-2x"></i></a>
+    <a href="" class="btn btn-default"><i class="treeClr fa fa-tree fa-2x"></i></a>
+    <a href="" class="btn btn-default"><i class="usersClr fa fa-users fa-2x"></i></a>
+    <a href="" class="btn btn-default"><i class="carClr fa fa-car fa-2x"></i></span></a>
+    
+   
+    
+    
+    
+    
     </div>
 
  <!--   
@@ -128,19 +141,19 @@
 </div>-->
       <div id="rightNav" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <ul class="nav navbar-nav">
-          <li><a href="#" onclick="event.stopPropagation();getLocation();" ><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Activate GPS</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();addRemoveSouthBranchRRBedExt();" ><i class="fa fa-check-square bmrrSouthCk"></i>&nbsp;&nbsp;BMRR South</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveEurekaMines();" ><i class="eurekaMineCk fa fa-check-square "></i>&nbsp;&nbsp;Eureka Mines</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveTCIConnector();" ><i class="tciConnectorCk fa fa-check-square"></i>&nbsp;&nbsp;TCI Connector</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveMineSpur13();" ><i class="mine13Ck fa fa-check-square "></i>&nbsp;&nbsp;#13 Mine</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveMineSpur14();" ><i class="mine14Ck fa fa-check-square "></i>&nbsp;&nbsp;#14 Mine</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSmythe();" ><i class="smytheCk fa fa-check-square "></i>&nbsp;&nbsp;Smythe</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveIkeMaston();addRemoveIkeMastonExt();" ><i class="ikeMastonCk fa fa-check-square "></i>&nbsp;&nbsp;Ike Maston</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveSongo();" ><i class="songoCk fa fa-check-square "></i>&nbsp;&nbsp;Songo</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveReddingIshkoodaEast();addRemoveIshkooda();addRemoveReddingIshkoodaWest();addRemoveReddingIshkoodaProposed();" ><i class="reddingIshKoodaCk fa fa-check-square "></i>&nbsp;&nbsp;Redding-Ishkooda</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();addRemoveBMRRLoopNorth();" ><i class="bmrrNorthCk fa fa-check-square"></i>&nbsp;&nbsp;BMRR North</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagatn();hideAllTrails();" ><i class="fa "></i>Hide All Trails</a></li>
-          <li><a class="trail" href="#" onclick="event.stopPropagation();showAllTrails();" ><i class="fa "></i>Show All Trails</a></li>
+          <li><a class="btn btn-rm" href="#" onclick="event.stopPropagation();getLocation();" ><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Activate GPS</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveSouthBranchRRBed();addRemoveSouthBranchRRBedExt();" ><i class="fa fa-check bmrrSouthCk"></i>&nbsp;&nbsp;BMRR South</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveEurekaMines();" ><i class="eurekaMineCk fa fa-check "></i>&nbsp;&nbsp;Eureka Mines</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveTCIConnector();" ><i class="tciConnectorCk fa fa-check"></i>&nbsp;&nbsp;TCI Connector</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveMineSpur13();" ><i class="mine13Ck fa fa-check "></i>&nbsp;&nbsp;#13 Mine</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveMineSpur14();" ><i class="mine14Ck fa fa-check "></i>&nbsp;&nbsp;#14 Mine</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveSmythe();" ><i class="smytheCk fa fa-check "></i>&nbsp;&nbsp;Smythe</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveIkeMaston();addRemoveIkeMastonExt();" ><i class="ikeMastonCk fa fa-check "></i>&nbsp;&nbsp;Ike Maston</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveSongo();" ><i class="songoCk fa fa-check "></i>&nbsp;&nbsp;Songo</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveReddingIshkoodaEast();addRemoveIshkooda();addRemoveReddingIshkoodaWest();addRemoveReddingIshkoodaProposed();" ><i class="reddingIshKoodaCk fa fa-check "></i>&nbsp;&nbsp;Redding-Ishkooda</a></li>
+          <li><a class="trail btn btn-rm" href="#" onclick="event.stopPropagation();addRemoveBMRRLoopNorth();" ><i class="bmrrNorthCk fa fa-check"></i>&nbsp;&nbsp;BMRR North</a></li>
+          <li><a class="btn btn-rm" href="#" onclick="event.stopPropagatn();hideAllTrails();" ><i class="fa "></i>Hide All Trails</a></li>
+          <li><a class="btn btn-rm" href="#" onclick="event.stopPropagation();showAllTrails();" ><i class="fa "></i>Show All Trails</a></li>
         
       
     </ul>

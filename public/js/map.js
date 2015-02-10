@@ -198,7 +198,7 @@ map = createMap();
   mineSpur13Trail = new google.maps.Polyline({
     path: mineSpur13Pair,
     show: false,
-    strokeColor: '#8F0080',
+    strokeColor: '#A67EFF',
     strokeOpacity: 1.0,
     strokeWeight: 2.25,
     cssClass: '.mineSpur13'
@@ -214,7 +214,7 @@ map = createMap();
    tciConnectorTrail = new google.maps.Polyline({
     path: tciConnectorPair,
     show: false,
-    strokeColor: '#A7041F',
+    strokeColor: '#FFE499',
     strokeOpacity: 1.0,
     strokeWeight: 2.25,
     cssClass: '.TCIConnector'
@@ -254,7 +254,7 @@ map = createMap();
    southBranchRRBedTrail = new google.maps.Polyline({
     path: southBranchRRBedPair,
     show: false,
-    strokeColor: '#692C00',
+    strokeColor: '#10FF65',
     strokeOpacity: 1.0,
     strokeWeight: 2.25,
     cssClass: '.southBranchRRBed'
@@ -262,7 +262,7 @@ map = createMap();
    southBranchRRBedExtTrail = new google.maps.Polyline({
     path: southBranchRRBedExtPair,
     show: false,
-    strokeColor: '#692C00',
+    strokeColor: '#10FF65',
     strokeOpacity: 1.0,
     strokeWeight: 2.25,
     cssClass: '.southBranchRRBedExt'
