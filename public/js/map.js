@@ -308,7 +308,7 @@ function getLocation() {
     }
     
 function errorPosition()
-{console.log('error')};
+{alert('Please Be Sure GPS is enabled on this device.')};
 
 function showPosition(position) {
   if(marker===undefined){
