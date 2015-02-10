@@ -1,4 +1,4 @@
-html,body{height:100%;z-index:100;font-size:10px;} 
+html,body{height:100%;z-index:100;font-size:10px;font-family: "Archivo Narrow", sans-serif;} 
 #map-canvas{
   height:100%;
   width:100%;
@@ -30,13 +30,24 @@ color: white;
 #leftNav{
 
 }
-
-
-
 #bottomNav{
   text-align: center!important;
   background:url("/img/red_background.jpg");
+  color:white;
+  padding-top:10px;
 }
+#topNav{}
+
+.navbar-toggle {background-color:#AB1F2C;}
+.navbar-default .navbar-toggle {
+border-color: #4a3732;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #B0122B;
+}
+
+
 
 
 @media (min-width: 768px) {
@@ -47,7 +58,10 @@ html,body{height:auto;z-index:100;font-size:16px!important;}
 
 #mainNav{height:100%;box-shadow: 10px 10px 10px #888888;}
 
-#topNav{padding-bottom:10px;}
+#topNav{padding-bottom:10px;height:fill;}
+#bottomNav{
+  min-height:400px;
+}
 
 
   .navbar-collapse {
@@ -111,6 +125,9 @@ html,body{height:auto;z-index:100;font-size:16px!important;}
     padding-top:0px;
   }
 
+  .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+max-height: 700px;
+}
 
 }
 
