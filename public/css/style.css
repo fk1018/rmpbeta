@@ -123,9 +123,6 @@ html,body{height:auto;z-index:100!important;}
   .navbar-header{
     opacity:1!important;
   }
-  #mainNav{
-    opacity:.7;
-  }
   .navbar-collapse{
     padding-left:15px!important;
     padding-right:15px!important;
