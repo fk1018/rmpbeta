@@ -152,7 +152,11 @@ map = createMap();
 
 
 
-
+  var beanStalkMarker = new google.maps.Marker({
+      position: new google.maps.LatLng(33.45124301035371,-86.86009372033001),
+      map: map,
+      icon: 'img/beanstalkSM.png'
+  });
 
     //Creating the Trails
   songoTrail = new google.maps.Polyline({
@@ -292,7 +296,12 @@ map = createMap();
   });
     //Add Trails to map
     
-  
+   google.maps.event.addListener(beanStalkMarker, 'click', function() {
+    $('#myModal').modal('show');
+    var video = $(".vidCLass").get(0);
+    video.play();
+
+  });
     
    
 
