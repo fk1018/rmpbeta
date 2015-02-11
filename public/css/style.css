@@ -14,7 +14,7 @@ html,body{height:100%;z-index:100;font-size:22px;font-family: 'Montserrat', sans
   opacity:.85;
 }
 .navbar-default #rightNav .navbar-nav  > li > a {
-color: white;
+color: white!important;
 }
 
 .navbar-default #leftNav .navbar-nav  > li > a {
@@ -40,23 +40,13 @@ color: white;
 }
 #topNav{}
 
-.navbar-toggle {background-color:#AB1F2C;}
-.navbar-default .navbar-toggle {
-border-color: #4a3732;
-}
-
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background-color: #B0122B;
-}
 
 
 
 
 @media (min-width: 768px) {
 html,body{height:auto;z-index:100!important;} 
-  .dropdown-menu{
-    font-size:18px!important;
-  }
+
 
   #mainNav{height:100%;box-shadow: 15px 15px 15px #888888;}
 
@@ -103,10 +93,6 @@ html,body{height:auto;z-index:100!important;}
   .navbar-header
     {float:none !important;}
 
-  .navbar-right .dropdown-menu {left:0;right:auto;}
-  .navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: 0;
-  }
 
   .navbar-nav > li > a{
     padding-top:15px;
@@ -132,9 +118,7 @@ html,body{height:auto;z-index:100!important;}
     padding-right:0px!important;
   }
 
-  .dropdown-menu{
-    font-size:12px!important;
-  }
+
   
   .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     max-height: 700px;
@@ -246,7 +230,10 @@ html,body{height:auto;z-index:100!important;}
   color:#FF1910;
 }
 .markerClr{
-  color:#F35048;
+  color:#00A5AD;
+}
+.refreshClr{
+  color:black;
 }
 
 .btn-rm { 

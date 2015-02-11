@@ -300,9 +300,7 @@ map = createMap();
 };//end initialize
 
 
- function gpsAlert() {
-  alert('To enable tracking please be sure that this devices GPS is turned on.');
-}
+
 
 
 function getLocation() {
@@ -323,6 +321,7 @@ function showPosition(position) {
       position: myLatLng,
       map: map
   });
+    
    map.setCenter(myLatLng);
   }else{
     var myLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
