@@ -46,9 +46,7 @@ $( ".reset" ).click(function() {
 $(".gps").click(function(){
 	getLocation();
 	var icon = $(this).children();
-	icon.addClass('animated');
-	icon.addClass('flash');
-	icon.addClass('infinite');
+	alert('GPS');
 
 });
 
