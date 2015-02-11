@@ -44,10 +44,13 @@ $( ".reset" ).click(function() {
 
 
 $(".gps").click(function(){
-	getLocation();
 	var icon = $(this).children();
-	alert('GPS');
+	icon.addClass('animated');
+	icon.addClass('flash');
+	icon.addClass('infinite');
 
+	getLocation();
+	
 });
 
 
